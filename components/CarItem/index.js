@@ -15,7 +15,6 @@ const CarItem = (props) => {
           style={styles.image}
         />
 
-
         <View style={styles.titles}> 
           <Text style={styles.title}>{name}</Text>
           <Text sryle={styles.subtitle}>
@@ -44,8 +43,7 @@ const CarItem = (props) => {
               }}
           />
         </View>
-
-
+        
       </View>
     );
 };
