@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
   },
 
   titles: {
-    marginTop: '30%',
+    marginTop: '25%',
     width: '100%',
     alignItems: 'center', 
   },
@@ -28,6 +28,18 @@ const styles = StyleSheet.create({
     resizeMode: 'cover',
     position: 'absolute',
   },
+
+  buttonsContainer: {
+    position: 'absolute',
+    bottom: 30,
+    width: '100%',
+  },
+
+  subtitleCTA: {
+    fontSize: 16,
+    color: '#5c5e62',
+    textDecorationLine: 'underline',
+  }
 });
 
 export default styles;
